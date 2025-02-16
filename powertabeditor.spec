@@ -9,6 +9,7 @@ Group:		Utilites
 BuildRequires:  pkgconfig(alsa)
 BuildRequires:	cmake
 BuildRequires:  doctest-devel
+BuildRequires:  %{_lib}boost-devel
 BuildRequires:  pkgconfig(minizip)
 BuildRequires:  pkgconfig(nlohmann_json)
 BuildRequires:  pkgconfig(pugixml)
@@ -20,6 +21,7 @@ BuildRequires:  pkgconfig(Qt6Linguist)
 BuildRequires:  pkgconfig(rtmidi)
 BuildRequires:  %{_lib}unwind-devel
 BuildSystem:	cmake
+Suggests:       TiMidity++
 
 %description
 A powerful cross platform guitar tablature viewer and editor inspired by the no
