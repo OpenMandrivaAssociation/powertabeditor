@@ -1,6 +1,6 @@
 Name:		powertabeditor
-Version:	2.0.21	
-Release:	5
+Version:	2.0.22	
+Release:	1
 Source0:	https://github.com/powertab/powertabeditor/archive/%{version}/%{name}-%{version}.tar.gz
 Summary:  	Guitar tablature viewer and editor
 URL:		https://github.com/powertabeditor/powertabeditor
