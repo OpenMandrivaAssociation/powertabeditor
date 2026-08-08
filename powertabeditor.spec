@@ -5,7 +5,7 @@ Source0:	https://github.com/powertab/powertabeditor/archive/%{version}/%{name}-%
 Summary:  	Guitar tablature viewer and editor
 URL:		https://github.com/powertabeditor/powertabeditor
 License:	GPL-3.0
-Group:		Utilites	
+Group:		Utilities
 BuildRequires:  pkgconfig(alsa)
 BuildRequires:	cmake
 BuildRequires:  doctest-devel
