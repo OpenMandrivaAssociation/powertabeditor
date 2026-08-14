@@ -11,6 +11,7 @@ BuildRequires:	cmake
 BuildRequires:  doctest-devel
 BuildRequires:  %{_lib}boost-devel
 BuildRequires:  pkgconfig(minizip)
+BuildRequires:	pkgconfig(zlib)
 BuildRequires:  pkgconfig(nlohmann_json)
 BuildRequires:  pkgconfig(pugixml)
 BuildRequires:	pkgconfig(Qt6Core)
